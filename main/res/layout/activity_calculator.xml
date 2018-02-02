@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:rowCount="5"
+    android:columnCount="4"
+    tools:context="mx.edu.utng.unit1evaluation.CalculatorActivity">
+
+    <EditText
+        android:layout_columnSpan="4"
+        android:id="@+id/edt_data"
+        android:hint="@string/cero"
+        android:layout_width="match_parent"
+        />
+
+    <Button
+        android:text="@string/_7"
+        android:textSize="@dimen/num_size"
+        android:id="@+id/btn_7" />
+    <Button
+        android:text="@string/_8"
+        android:textSize="@dimen/num_size"
+        android:id="@+id/btn_8"/>
+    <Button
+        android:text="@string/_9"
+        android:textSize="@dimen/num_size"
+        android:id="@+id/btn_9"/>
+    <Button
+        android:text="@string/x"
+        android:textSize="@dimen/num_size"
+        android:id="@+id/btn_multiplication"/>
+
+    <Button
+        android:text="@string/_4"
+        android:textSize="@dimen/num_size"
+        android:id="@+id/btn_4"/>
+    <Button
+        android:text="@string/_5"
+        android:textSize="@dimen/num_size"
+        android:id="@+id/btn_5"/>
+    <Button
+        android:text="@string/_6"
+        android:textSize="@dimen/num_size"
+        android:id="@+id/btn_6"/>
+    <Button
+        android:text="@string/minus"
+        android:textSize="@dimen/num_size"
+        android:id="@+id/btn_minus"/>
+
+    <Button
+        android:text="@string/_1"
+        android:textSize="@dimen/num_size"
+        android:id="@+id/btn_1"/>
+    <Button
+        android:text="@string/_2"
+        android:textSize="@dimen/num_size"
+        android:id="@+id/btn_2"/>
+    <Button
+        android:text="@string/_3"
+        android:textSize="@dimen/num_size"
+        android:id="@+id/btn_3"/>
+    <Button
+        android:text="@string/add"
+        android:textSize="@dimen/num_size"
+        android:id="@+id/btn_plus"/>
+
+    <Button
+        android:text="@string/divition"
+        android:textSize="@dimen/num_size"
+        android:id="@+id/btn_div"/>
+    <Button
+        android:text="@string/_0"
+        android:textSize="@dimen/num_size"
+        android:id="@+id/btn_0"/>
+    <Button
+        android:text="@string/dot"
+        android:textSize="@dimen/num_size"
+        android:id="@+id/btn_dot" />
+    <Button
+        android:text="@string/result"
+        android:textSize="@dimen/num_size"
+        android:id="@+id/btn_result"/>
+
+</GridLayout>
